@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Container Section */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.my-story, .personal-info {
+    margin-bottom: 20px;
+}
+
+.story-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.story-header .story-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.my-story h2, .personal-info h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6200ea;
+}
+
+.my-story p, .personal-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+/* Social Icons Section */
+.social-icons {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.find-me {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #6200ea;
+    margin-bottom: 10px;
+}
+
+.icons a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
